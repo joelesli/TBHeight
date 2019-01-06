@@ -26,6 +26,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         configureView()
+        navigationController?.setToolbarHidden(false, animated: false)
     }
 
     var detailItem: NSDate? {
