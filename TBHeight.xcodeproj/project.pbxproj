@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB2E77D621E21CCC006F72EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E77D521E21CCC006F72EB /* AppDelegate.swift */; };
+		BB2E77D821E21CCC006F72EB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E77D721E21CCC006F72EB /* MasterViewController.swift */; };
+		BB2E77DA21E21CCC006F72EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E77D921E21CCC006F72EB /* DetailViewController.swift */; };
+		BB2E77DD21E21CCC006F72EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2E77DB21E21CCC006F72EB /* Main.storyboard */; };
+		BB2E77DF21E21CCD006F72EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2E77DE21E21CCD006F72EB /* Assets.xcassets */; };
+		BB2E77E221E21CCD006F72EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2E77E021E21CCD006F72EB /* LaunchScreen.storyboard */; };
+		BB2E77ED21E21CCD006F72EB /* TBHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E77EC21E21CCD006F72EB /* TBHeightTests.swift */; };
+		BB2E77F821E21CCD006F72EB /* TBHeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E77F721E21CCD006F72EB /* TBHeightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB2E77E921E21CCD006F72EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2E77CA21E21CCC006F72EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2E77D121E21CCC006F72EB;
+			remoteInfo = TBHeight;
+		};
+		BB2E77F421E21CCD006F72EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2E77CA21E21CCC006F72EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2E77D121E21CCC006F72EB;
+			remoteInfo = TBHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB2E77D221E21CCC006F72EB /* TBHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2E77D521E21CCC006F72EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB2E77D721E21CCC006F72EB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		BB2E77D921E21CCC006F72EB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BB2E77DC21E21CCC006F72EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB2E77DE21E21CCD006F72EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB2E77E121E21CCD006F72EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB2E77E321E21CCD006F72EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2E77E821E21CCD006F72EB /* TBHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2E77EC21E21CCD006F72EB /* TBHeightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBHeightTests.swift; sourceTree = "<group>"; };
+		BB2E77EE21E21CCD006F72EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2E77F321E21CCD006F72EB /* TBHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2E77F721E21CCD006F72EB /* TBHeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBHeightUITests.swift; sourceTree = "<group>"; };
+		BB2E77F921E21CCD006F72EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2E77CF21E21CCC006F72EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2E77E521E21CCD006F72EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2E77F021E21CCD006F72EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2E77C921E21CCC006F72EB = {
+			isa = PBXGroup;
+			children = (
+				BB2E77D421E21CCC006F72EB /* TBHeight */,
+				BB2E77EB21E21CCD006F72EB /* TBHeightTests */,
+				BB2E77F621E21CCD006F72EB /* TBHeightUITests */,
+				BB2E77D321E21CCC006F72EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2E77D321E21CCC006F72EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E77D221E21CCC006F72EB /* TBHeight.app */,
+				BB2E77E821E21CCD006F72EB /* TBHeightTests.xctest */,
+				BB2E77F321E21CCD006F72EB /* TBHeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2E77D421E21CCC006F72EB /* TBHeight */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E77D521E21CCC006F72EB /* AppDelegate.swift */,
+				BB2E77D721E21CCC006F72EB /* MasterViewController.swift */,
+				BB2E77D921E21CCC006F72EB /* DetailViewController.swift */,
+				BB2E77DB21E21CCC006F72EB /* Main.storyboard */,
+				BB2E77DE21E21CCD006F72EB /* Assets.xcassets */,
+				BB2E77E021E21CCD006F72EB /* LaunchScreen.storyboard */,
+				BB2E77E321E21CCD006F72EB /* Info.plist */,
+			);
+			path = TBHeight;
+			sourceTree = "<group>";
+		};
+		BB2E77EB21E21CCD006F72EB /* TBHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E77EC21E21CCD006F72EB /* TBHeightTests.swift */,
+				BB2E77EE21E21CCD006F72EB /* Info.plist */,
+			);
+			path = TBHeightTests;
+			sourceTree = "<group>";
+		};
+		BB2E77F621E21CCD006F72EB /* TBHeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E77F721E21CCD006F72EB /* TBHeightUITests.swift */,
+				BB2E77F921E21CCD006F72EB /* Info.plist */,
+			);
+			path = TBHeightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2E77D121E21CCC006F72EB /* TBHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2E77FC21E21CCD006F72EB /* Build configuration list for PBXNativeTarget "TBHeight" */;
+			buildPhases = (
+				BB2E77CE21E21CCC006F72EB /* Sources */,
+				BB2E77CF21E21CCC006F72EB /* Frameworks */,
+				BB2E77D021E21CCC006F72EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBHeight;
+			productName = TBHeight;
+			productReference = BB2E77D221E21CCC006F72EB /* TBHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB2E77E721E21CCD006F72EB /* TBHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2E77FF21E21CCD006F72EB /* Build configuration list for PBXNativeTarget "TBHeightTests" */;
+			buildPhases = (
+				BB2E77E421E21CCD006F72EB /* Sources */,
+				BB2E77E521E21CCD006F72EB /* Frameworks */,
+				BB2E77E621E21CCD006F72EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2E77EA21E21CCD006F72EB /* PBXTargetDependency */,
+			);
+			name = TBHeightTests;
+			productName = TBHeightTests;
+			productReference = BB2E77E821E21CCD006F72EB /* TBHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB2E77F221E21CCD006F72EB /* TBHeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2E780221E21CCD006F72EB /* Build configuration list for PBXNativeTarget "TBHeightUITests" */;
+			buildPhases = (
+				BB2E77EF21E21CCD006F72EB /* Sources */,
+				BB2E77F021E21CCD006F72EB /* Frameworks */,
+				BB2E77F121E21CCD006F72EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2E77F521E21CCD006F72EB /* PBXTargetDependency */,
+			);
+			name = TBHeightUITests;
+			productName = TBHeightUITests;
+			productReference = BB2E77F321E21CCD006F72EB /* TBHeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2E77CA21E21CCC006F72EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JOELESLI;
+				TargetAttributes = {
+					BB2E77D121E21CCC006F72EB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BB2E77E721E21CCD006F72EB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BB2E77D121E21CCC006F72EB;
+					};
+					BB2E77F221E21CCD006F72EB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BB2E77D121E21CCC006F72EB;
+					};
+				};
+			};
+			buildConfigurationList = BB2E77CD21E21CCC006F72EB /* Build configuration list for PBXProject "TBHeight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB2E77C921E21CCC006F72EB;
+			productRefGroup = BB2E77D321E21CCC006F72EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2E77D121E21CCC006F72EB /* TBHeight */,
+				BB2E77E721E21CCD006F72EB /* TBHeightTests */,
+				BB2E77F221E21CCD006F72EB /* TBHeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2E77D021E21CCC006F72EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2E77E221E21CCD006F72EB /* LaunchScreen.storyboard in Resources */,
+				BB2E77DF21E21CCD006F72EB /* Assets.xcassets in Resources */,
+				BB2E77DD21E21CCC006F72EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2E77E621E21CCD006F72EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2E77F121E21CCD006F72EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2E77CE21E21CCC006F72EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2E77DA21E21CCC006F72EB /* DetailViewController.swift in Sources */,
+				BB2E77D821E21CCC006F72EB /* MasterViewController.swift in Sources */,
+				BB2E77D621E21CCC006F72EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2E77E421E21CCD006F72EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2E77ED21E21CCD006F72EB /* TBHeightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2E77EF21E21CCD006F72EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2E77F821E21CCD006F72EB /* TBHeightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB2E77EA21E21CCD006F72EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2E77D121E21CCC006F72EB /* TBHeight */;
+			targetProxy = BB2E77E921E21CCD006F72EB /* PBXContainerItemProxy */;
+		};
+		BB2E77F521E21CCD006F72EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2E77D121E21CCC006F72EB /* TBHeight */;
+			targetProxy = BB2E77F421E21CCD006F72EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB2E77DB21E21CCC006F72EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2E77DC21E21CCC006F72EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB2E77E021E21CCD006F72EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2E77E121E21CCD006F72EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB2E77FA21E21CCD006F72EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB2E77FB21E21CCD006F72EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB2E77FD21E21CCD006F72EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53SCFHP556;
+				INFOPLIST_FILE = TBHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelesli.TBHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB2E77FE21E21CCD006F72EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53SCFHP556;
+				INFOPLIST_FILE = TBHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelesli.TBHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB2E780021E21CCD006F72EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53SCFHP556;
+				INFOPLIST_FILE = TBHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelesli.TBHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBHeight.app/TBHeight";
+			};
+			name = Debug;
+		};
+		BB2E780121E21CCD006F72EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53SCFHP556;
+				INFOPLIST_FILE = TBHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelesli.TBHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBHeight.app/TBHeight";
+			};
+			name = Release;
+		};
+		BB2E780321E21CCD006F72EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53SCFHP556;
+				INFOPLIST_FILE = TBHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelesli.TBHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TBHeight;
+			};
+			name = Debug;
+		};
+		BB2E780421E21CCD006F72EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53SCFHP556;
+				INFOPLIST_FILE = TBHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelesli.TBHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TBHeight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2E77CD21E21CCC006F72EB /* Build configuration list for PBXProject "TBHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2E77FA21E21CCD006F72EB /* Debug */,
+				BB2E77FB21E21CCD006F72EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2E77FC21E21CCD006F72EB /* Build configuration list for PBXNativeTarget "TBHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2E77FD21E21CCD006F72EB /* Debug */,
+				BB2E77FE21E21CCD006F72EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2E77FF21E21CCD006F72EB /* Build configuration list for PBXNativeTarget "TBHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2E780021E21CCD006F72EB /* Debug */,
+				BB2E780121E21CCD006F72EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2E780221E21CCD006F72EB /* Build configuration list for PBXNativeTarget "TBHeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2E780321E21CCD006F72EB /* Debug */,
+				BB2E780421E21CCD006F72EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2E77CA21E21CCC006F72EB /* Project object */;
+}
